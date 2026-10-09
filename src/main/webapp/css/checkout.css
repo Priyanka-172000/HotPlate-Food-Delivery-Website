@@ -1,0 +1,55 @@
+.checkout-page { padding: 32px 0 80px; background: var(--bg-gray); min-height: 80vh; }
+.checkout-layout { display: flex; gap: 32px; align-items: flex-start; }
+.checkout-left { flex: 1; }
+.checkout-right { width: 340px; flex-shrink: 0; }
+.checkout-card {
+  background: white; border: 1px solid var(--border);
+  border-radius: var(--radius-md); padding: 24px; margin-bottom: 20px;
+}
+.checkout-card h3 {
+  font-size: 16px; font-weight: 700; color: var(--text-dark);
+  margin-bottom: 20px; padding-bottom: 12px; border-bottom: 1px solid var(--border);
+}
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.form-group { margin-bottom: 16px; }
+.form-group label { display: block; font-size: 13px; font-weight: 600; color: var(--text-mid); margin-bottom: 6px; }
+.form-group input, .form-group select, .form-group textarea {
+  width: 100%; padding: 11px 14px; border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm); font-size: 14px; color: var(--text-dark);
+  background: var(--bg-gray); font-family: inherit; transition: border-color 0.2s;
+}
+.form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+  border-color: var(--primary); background: white;
+  box-shadow: 0 0 0 3px rgba(226,55,68,0.08); outline: none;
+}
+.payment-options { display: flex; flex-direction: column; gap: 10px; }
+.payment-option {
+  display: flex; align-items: center; gap: 14px;
+  border: 1.5px solid var(--border); border-radius: var(--radius-sm);
+  padding: 14px 16px; cursor: pointer; transition: border-color 0.2s;
+}
+.payment-option:hover { border-color: var(--primary); background: var(--primary-light); }
+.payment-option input[type=radio] { accent-color: var(--primary); }
+.payment-option label { font-size: 14px; font-weight: 600; cursor: pointer; }
+.bill-summary { background: white; border: 1px solid var(--border); border-radius: var(--radius-md); padding: 24px; }
+.bill-summary h3 { font-size: 16px; font-weight: 800; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+.bill-row { display: flex; justify-content: space-between; font-size: 14px; color: var(--text-mid); padding: 5px 0; }
+.bill-row.total { font-size: 16px; font-weight: 800; color: var(--text-dark); border-top: 1px solid var(--border); padding-top: 12px; margin-top: 8px; }
+.place-order-btn {
+  width: 100%; background: var(--primary); color: white; border: none;
+  border-radius: var(--radius-sm); padding: 16px; font-size: 16px; font-weight: 800;
+  cursor: pointer; margin-top: 16px; transition: background 0.18s;
+}
+.place-order-btn:hover { background: var(--primary-dark); }
+.po-icon { font-size: 24px; }
+.po-name { font-size: 14px; font-weight: 700; }
+.po-sub { font-size: 12px; color: var(--text-light); }
+.checkout-summary { width: 340px; flex-shrink: 0; }
+.summary-card { background: #fff; border: 1px solid var(--border); border-radius: var(--radius-md); padding: 20px; }
+.sum-rest { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
+.sum-rest-icon { font-size: 32px; }
+.sum-rest-name { font-size: 15px; font-weight: 800; }
+.sum-items { margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+.sum-item { display: flex; justify-content: space-between; font-size: 14px; color: var(--text-mid); padding: 4px 0; }
+.sum-row { display: flex; justify-content: space-between; font-size: 14px; color: var(--text-mid); padding: 5px 0; }
+.sum-row.total { font-size: 16px; font-weight: 800; color: var(--text-dark); border-top: 1px solid var(--border); padding-top: 12px; margin-top: 8px; }

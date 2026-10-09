@@ -1,0 +1,15 @@
+.profile-page { padding: 40px 0 80px; background: var(--bg-gray); min-height: 80vh; }
+.profile-layout { display: flex; gap: 24px; align-items: flex-start; }
+.profile-sidebar { width: 260px; flex-shrink: 0; }
+.ps-card { background: #fff; border: 1px solid var(--border); border-radius: var(--radius-md); padding: 24px; text-align: center; }
+.ps-avatar { width: 72px; height: 72px; border-radius: 50%; background: var(--primary); color: #fff; font-size: 28px; font-weight: 900; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; }
+.ps-name { font-size: 17px; font-weight: 800; margin-bottom: 4px; }
+.ps-email { font-size: 13px; color: var(--text-light); margin-bottom: 20px; }
+.ps-nav { display: flex; flex-direction: column; gap: 2px; text-align: left; border-top: 1px solid var(--border); padding-top: 16px; }
+.ps-nav a { font-size: 14px; font-weight: 600; color: var(--text-mid); padding: 10px 14px; border-radius: 8px; transition: all 0.18s; display: block; }
+.ps-nav a:hover, .ps-nav a.active { background: var(--primary-light); color: var(--primary); }
+.profile-main { flex: 1; }
+.profile-card { background: #fff; border: 1px solid var(--border); border-radius: var(--radius-md); padding: 28px; }
+.profile-card h3 { font-size: 18px; font-weight: 800; margin-bottom: 24px; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
+.save-btn { background: var(--primary); color: #fff; border: none; border-radius: var(--radius-sm); padding: 12px 32px; font-size: 15px; font-weight: 700; cursor: pointer; margin-top: 8px; transition: background 0.18s; }
+.save-btn:hover { background: var(--primary-dark); }
